@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/gen/app/threaded_irq/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/gen/app/threaded_irq/Module.symvers -T /home/shiva/Desktop/gen/app/threaded_irq/modules.order -i Module.symvers -e 

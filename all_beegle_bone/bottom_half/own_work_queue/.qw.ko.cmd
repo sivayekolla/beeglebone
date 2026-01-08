@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/own_work_queue/qw.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/bottom/own_work_queue/qw.ko /home/shiva/Desktop/bottom/own_work_queue/qw.o /home/shiva/Desktop/bottom/own_work_queue/qw.mod.o

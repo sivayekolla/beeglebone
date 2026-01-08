@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.mod := printf '%s\n'   001.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/"$$0) }' > /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.mod

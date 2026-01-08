@@ -1,0 +1,1 @@
+cmd_/home/shiva/Desktop/bht/workq/app_workqueue.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/bht/workq/app_workqueue.ko /home/shiva/Desktop/bht/workq/app_workqueue.o /home/shiva/Desktop/bht/workq/app_workqueue.mod.o;  true

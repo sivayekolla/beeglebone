@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/ALL_IN_1/027/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/ALL_IN_1/027/Module.symvers -T /home/shiva/Desktop/ALL_IN_1/027/modules.order -i Module.symvers -e 

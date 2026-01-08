@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/platform_driver/platform_driver.mod := printf '%s\n'   platform_driver.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/amp/lss_1_bbb_1/platform_driver/"$$0) }' > /home/shiva/Desktop/amp/lss_1_bbb_1/platform_driver/platform_driver.mod

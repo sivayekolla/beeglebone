@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/taskletss/kbd_tasklet.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/taskletss/kbd_tasklet.ko /home/shiva/Desktop/taskletss/kbd_tasklet.o /home/shiva/Desktop/taskletss/kbd_tasklet.mod.o

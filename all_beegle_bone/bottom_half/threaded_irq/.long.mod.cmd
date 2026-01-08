@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/gen/app/threaded_irq/long.mod := printf '%s\n'   long.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/gen/app/threaded_irq/"$$0) }' > /home/shiva/Desktop/gen/app/threaded_irq/long.mod

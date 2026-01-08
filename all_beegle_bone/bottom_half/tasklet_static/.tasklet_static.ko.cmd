@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/tasklet_static/tasklet_static.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/bottom/tasklet_static/tasklet_static.ko /home/shiva/Desktop/bottom/tasklet_static/tasklet_static.o /home/shiva/Desktop/bottom/tasklet_static/tasklet_static.mod.o

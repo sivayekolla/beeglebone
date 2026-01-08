@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/own_work_queue/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/bottom/own_work_queue/Module.symvers -T /home/shiva/Desktop/bottom/own_work_queue/modules.order -i Module.symvers -e 

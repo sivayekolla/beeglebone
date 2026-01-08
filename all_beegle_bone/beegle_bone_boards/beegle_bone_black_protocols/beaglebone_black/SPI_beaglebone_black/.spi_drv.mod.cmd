@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/spi_drv.mod := printf '%s\n'   spi_drv.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/"$$0) }' > /home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/spi_drv.mod

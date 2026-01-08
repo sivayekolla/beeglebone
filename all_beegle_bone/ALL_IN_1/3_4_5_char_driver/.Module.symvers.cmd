@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/Module.symvers -T /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/gen/app/threaded_irq/long.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/gen/app/threaded_irq/long.ko /home/shiva/Desktop/gen/app/threaded_irq/long.o /home/shiva/Desktop/gen/app/threaded_irq/long.mod.o

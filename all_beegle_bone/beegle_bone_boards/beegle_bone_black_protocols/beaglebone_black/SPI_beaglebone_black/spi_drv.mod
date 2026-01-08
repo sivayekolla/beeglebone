@@ -1,0 +1,1 @@
+/home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/spi_drv.o

@@ -1,0 +1,1 @@
+savedcmd_/home/siva/Desktop/all/009/io.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/siva/Desktop/all/009/io.ko /home/siva/Desktop/all/009/io.o /home/siva/Desktop/all/009/io.mod.o

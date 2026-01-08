@@ -1,0 +1,76 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone-black";
+
+    fragment@0 {
+        target = <&spi0>;
+        __overlay__ {
+            status = "okay";
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            /* SPI child on CS0 (reg=<0>) */
+            my_spi_test@0 {
+                compatible = "mycompany,my-spi-test";
+                reg = <0>;                    /* chip-select 0 */
+                spi-max-frequency = <1000000>; /* 1 MHz, adjust as needed */
+            };
+        };
+    };
+
+    /* Optional: pinmux fragment template (UNCOMMENT & ADJUST if your image doesn't provide SPI0 pinmux)
+     * The pin names and pinctrl labels depend on kernel version and capemgr. If you need the pinmux
+     * here I can add a precise fragment for your kernel image.
+     */
+    /*
+    fragment@1 {
+        target = <&am33xx_pinmux>;
+        __overlay__ {
+            spi0_pins: pinmux_spi0_pins {
+                pinctrl-single,pins = <
+                    0x?? 0x??  /* replace with correct offset/value for SPI0_SCLK pin */
+                    0x?? 0x??  /* SPI0_D0  (MOSI) */
+                    0x?? 0x??  /* SPI0_D1  (MISO) */
+                    0x?? 0x??  /* SPI0_CS0 */
+                >;
+            };
+        };
+    };
+
+    fragment@2 {
+        target = <&spi0>;
+        __overlay__ {
+            pinctrl-names = "default";
+            pinctrl-0 = <&spi0_pins>;
+        };
+    };
+    */
+};
+
+-------------------------------------------
+
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone-black";
+
+    fragment@0 {
+        target = <&spi1>;
+        __overlay__ {
+            status = "okay";
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            my_spi_test@0 {
+                compatible = "mycompany,my-spi-test";
+                reg = <0>;                    /* chip-select 0 on spi1 */
+                spi-max-frequency = <1000000>;
+            };
+        };
+    };
+
+    /* Optional pinmux template (see notes in SPI0 overlay) */
+};

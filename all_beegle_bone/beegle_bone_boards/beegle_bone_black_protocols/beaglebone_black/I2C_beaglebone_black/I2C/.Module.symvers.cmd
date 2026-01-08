@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/Module.symvers -T /home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/modules.order -i Module.symvers -e 

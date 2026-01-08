@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.mod := printf '%s\n'   mydt_driver.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/"$$0) }' > /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bbb_drivers/gpio/gpio_driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/bbb_drivers/gpio/gpio_driver.ko /home/shiva/Desktop/bbb_drivers/gpio/gpio_driver.o /home/shiva/Desktop/bbb_drivers/gpio/gpio_driver.mod.o

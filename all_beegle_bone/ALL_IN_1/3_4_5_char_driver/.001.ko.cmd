@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.ko /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.o /home/shiva/Desktop/amp/lss_1_bbb_1/3_4_5_char_driver/001.mod.o

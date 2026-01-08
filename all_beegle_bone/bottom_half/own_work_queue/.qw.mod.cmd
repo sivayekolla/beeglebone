@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/own_work_queue/qw.mod := printf '%s\n'   qw.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/bottom/own_work_queue/"$$0) }' > /home/shiva/Desktop/bottom/own_work_queue/qw.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/tasklet_static/tasklet_static.mod := printf '%s\n'   tasklet_static.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/bottom/tasklet_static/"$$0) }' > /home/shiva/Desktop/bottom/tasklet_static/tasklet_static.mod

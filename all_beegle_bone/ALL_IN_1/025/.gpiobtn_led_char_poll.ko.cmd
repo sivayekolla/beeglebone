@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/ALL_IN_1/025/gpiobtn_led_char_poll.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/ALL_IN_1/025/gpiobtn_led_char_poll.ko /home/shiva/Desktop/ALL_IN_1/025/gpiobtn_led_char_poll.o /home/shiva/Desktop/ALL_IN_1/025/gpiobtn_led_char_poll.mod.o

@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/gen/app/tasklet_app/keyboard_tasklet.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/gen/app/tasklet_app/keyboard_tasklet.ko /home/shiva/Desktop/gen/app/tasklet_app/keyboard_tasklet.o /home/shiva/Desktop/gen/app/tasklet_app/keyboard_tasklet.mod.o

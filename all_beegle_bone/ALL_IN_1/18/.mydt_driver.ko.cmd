@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.ko /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.o /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/mydt_driver.mod.o

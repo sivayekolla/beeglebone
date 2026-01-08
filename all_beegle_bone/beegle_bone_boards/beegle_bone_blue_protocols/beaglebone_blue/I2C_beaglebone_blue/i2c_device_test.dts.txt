@@ -1,0 +1,22 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone", "ti,beaglebone-black", "ti,beaglebone-blue";
+
+    fragment@0 {
+        target = <&i2c1>;
+        __overlay__ {
+
+            status = "okay";
+
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            my_test_i2c@30 {
+                compatible = "mycompany,my-i2c-test";
+                reg = <0x30>;
+            };
+        };
+    };
+};

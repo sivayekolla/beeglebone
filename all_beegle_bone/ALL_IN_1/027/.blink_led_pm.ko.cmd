@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/ALL_IN_1/027/blink_led_pm.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/ALL_IN_1/027/blink_led_pm.ko /home/shiva/Desktop/ALL_IN_1/027/blink_led_pm.o /home/shiva/Desktop/ALL_IN_1/027/blink_led_pm.mod.o

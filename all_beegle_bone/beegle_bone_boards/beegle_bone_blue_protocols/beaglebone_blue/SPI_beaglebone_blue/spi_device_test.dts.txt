@@ -1,0 +1,29 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone", "ti,beaglebone-black", "ti,beaglebone-blue";
+
+    fragment@0 {
+        target = <&spi1>;
+        __overlay__ {
+            status = "okay";
+
+            /* Ensure address-cells so child reg is interpreted as chip-select number */
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            /* child node: chip-select 0 (reg = <0>) */
+            my_spi_test@0 {
+                compatible = "mycompany,my-spi-test";
+                reg = <0>;                /* chip-select 0 */
+                spi-max-frequency = <1000000>; /* 1 MHz (adjust as needed) */
+
+                /* If your board uses a GPIO for CS, specify phandle to gpio and cs-gpios */
+                /* Example (uncomment & adjust if needed):
+                cs-gpios = <&gpio1 28 GPIO_ACTIVE_LOW>;
+                */
+            };
+        };
+    };
+};

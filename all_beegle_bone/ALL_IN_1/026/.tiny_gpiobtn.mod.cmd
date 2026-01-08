@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.mod := printf '%s\n'   tiny_gpiobtn.o | awk '!x[$$0]++ { print("/home/shiva/Desktop/ALL_IN_1/026/"$$0) }' > /home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.mod

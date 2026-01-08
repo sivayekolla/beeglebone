@@ -1,0 +1,30 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone-black";
+
+    /* Enable and use i2c1 (P9_17 = SCL, P9_18 = SDA) and add child device */
+    fragment@0 {
+        target = <&i2c1>;
+        __overlay__ {
+            status = "okay";
+
+            /* Standard I2C parent cells for bus children */
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            /* create the device at 7-bit address 0x30 */
+            my_test_i2c@30 {
+                compatible = "mycompany,my-i2c-test";
+                reg = <0x30>;
+            };
+        };
+    };
+
+    /* NOTE:
+     * On many BBB images the pinmux for i2c1 (P9_17/18) may already be done by a
+     * standard BB-I2C1 overlay or kernel config. If you find pins not muxed,
+     * use the supplied BB-I2C1 overlay (or add pinmux fragment here).
+     */
+};

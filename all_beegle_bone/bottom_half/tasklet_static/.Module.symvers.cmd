@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/bottom/tasklet_static/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/bottom/tasklet_static/Module.symvers -T /home/shiva/Desktop/bottom/tasklet_static/modules.order -i Module.symvers -e 

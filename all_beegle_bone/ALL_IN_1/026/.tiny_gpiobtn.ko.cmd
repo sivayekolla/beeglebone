@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.ko /home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.o /home/shiva/Desktop/ALL_IN_1/026/tiny_gpiobtn.mod.o

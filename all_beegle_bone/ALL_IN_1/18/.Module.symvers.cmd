@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/Module.symvers -T /home/shiva/Desktop/amp/lss_1_bbb_1/device_tree/modules.order -i Module.symvers -e 

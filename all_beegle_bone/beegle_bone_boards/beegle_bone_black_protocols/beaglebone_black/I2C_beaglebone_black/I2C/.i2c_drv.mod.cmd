@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/i2c_drv.mod := printf '%s\n'   i2c_drv.o | awk '!x[$$0]++ { print("/home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/"$$0) }' > /home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/i2c_drv.mod

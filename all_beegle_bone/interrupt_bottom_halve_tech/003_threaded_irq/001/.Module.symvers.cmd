@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/interrupt_bottom_halve_tech/003_threaded_irq/001/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/interrupt_bottom_halve_tech/003_threaded_irq/001/Module.symvers -T /home/shiva/Desktop/interrupt_bottom_halve_tech/003_threaded_irq/001/modules.order -i Module.symvers -e 

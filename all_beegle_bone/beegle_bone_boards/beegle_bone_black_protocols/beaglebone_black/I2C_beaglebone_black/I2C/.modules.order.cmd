@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/modules.order := {   echo /home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/i2c_drv.o; :; } > /home/shiva/Downloads/beaglebone_black/I2C_beaglebone_black/I2C/modules.order

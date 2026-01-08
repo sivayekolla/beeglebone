@@ -1,0 +1,1 @@
+savedcmd_/home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/Module.symvers -T /home/shiva/Desktop/beegle_bone_black_protocols/beaglebone_black/SPI_beaglebone_black/modules.order -i Module.symvers -e 

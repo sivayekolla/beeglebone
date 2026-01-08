@@ -1,0 +1,20 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone", "ti,beaglebone-black";
+
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            bbb_gpio_device {
+                compatible = "bbb-gpio-driver";
+                status = "okay";
+                
+                // Example GPIO assignments
+                led-gpios = <&gpio1 17 0>;    /* GPIO1_17 */
+                button-gpios = <&gpio1 18 0>; /* GPIO1_18 */
+            };
+        };
+    };
+};

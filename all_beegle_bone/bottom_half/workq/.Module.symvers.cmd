@@ -1,0 +1,1 @@
+cmd_/home/shiva/Desktop/bht/workq/Module.symvers := sed 's/ko$$/o/' /home/shiva/Desktop/bht/workq/modules.order | scripts/mod/modpost -m    -o /home/shiva/Desktop/bht/workq/Module.symvers -e -i Module.symvers   -T -
